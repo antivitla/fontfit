@@ -53,6 +53,9 @@ window.fontfit = function(collection) {
         // - а также подходящий line-height (кратный основному на сайте)
         lineHeight = parseInt(getComputedStyle(document.body).lineHeight);
         item.style.lineHeight = Math.round(fontSize / lineHeight) * lineHeight + "px";
+
+        // Плюс анимашечку
+        item.style.transition = "font-size 0.25s";
     }
 };
 
