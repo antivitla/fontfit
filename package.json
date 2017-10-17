@@ -1,0 +1,23 @@
+{
+  "name": "mr-fontfit",
+  "version": "1.0.0",
+  "description": "Make text fit desired width",
+  "main": "mr-fontfit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antivitla/mr-fontfit.git"
+  },
+  "keywords": [
+    "text",
+    "resize"
+  ],
+  "author": "Виталий Кулешин <antivitla@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antivitla/mr-fontfit/issues"
+  },
+  "homepage": "https://github.com/antivitla/mr-fontfit#readme"
+}
