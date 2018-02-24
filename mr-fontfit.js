@@ -60,7 +60,15 @@ window.fontfit = function(collection) {
 };
 
 document.addEventListener("DOMContentLoaded", function() {
-    fontfit(document.querySelectorAll("[data-fontfit]"));
+    setTimeout(function () {
+        fontfit(document.querySelectorAll("[data-fontfit]"));
+    }, 100);
+});
+
+window.addEventListener("load", function() {
+    setTimeout(function () {
+        fontfit(document.querySelectorAll("[data-fontfit]"));
+    }, 100);
 });
 
 window.addEventListener("resize", function() {
