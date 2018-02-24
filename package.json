@@ -1,6 +1,6 @@
 {
   "name": "mr-fontfit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make text fit desired width",
   "main": "mr-fontfit.js",
   "scripts": {
